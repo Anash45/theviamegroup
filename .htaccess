@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^travelviacoach\.com$
+RewriteRule ^/?$ "https\:\/\/www\.travelviacoach\.com\/" [R=301,L]
